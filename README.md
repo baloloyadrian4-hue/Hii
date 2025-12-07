@@ -1,1 +1,124 @@
 # Hii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Portal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #555;
+            padding: 10px;
+        }
+        .header {
+            background: #007bff;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .nav {
+            background: #cce5ff;
+            width: 25%;
+            vertical-align: top;
+        }
+        .content {
+            background: #f8f9fa;
+            vertical-align: top;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+       
+       
+    </style>
+</head>
+<body>
+
+<table>
+    
+    <tr>
+       <src =""td class="header" colspan="3">Student Information Portal</td>
+    </tr>
+    <tr>
+        
+        <td class="nav">
+            <b>Navigation</b>
+            <ul>
+                <li>Home</li>
+                <li>Grades</li>
+                <li>Subjects</li>
+            </ul>
+        </td>
+        <td class="content">
+            
+            <table width="30%">
+                <tr>
+                    <td rowspan="4" style="width:100px; text-align:center;">
+                      
+                    </td>
+                    <td><b>Name:</b>Adrian Baloloy </td>
+                </tr>
+                <tr>
+                    <td><b>Student ID:</b> 09-002 </td>
+                </tr>
+                <tr>
+                    <td><b>Course:</b> Association Computer Technology </td>
+                </tr>
+                <tr>
+                    <td><b>Year Level:</b> 2nd Year</td>
+                </tr>
+            </table>
+
+            <h2>Grades</h2>
+
+            <table width="30%">
+                <tr style="background:#e9ecef; font-weight:bold;">
+                    <td>Subject</td>
+                    <td>Midterm </td>
+                    <td>Final</td>
+                    <td>Remarks</td>
+                </tr>
+                <tr>
+                    <td>Mobile Application </td>
+                    <td>2.0</td>
+                    <td>1.75</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>Object-Oriented Programing </td>
+                    <td>2.25</td>
+                    <td>2.0</td>
+                    <td>Passed</td>
+                </tr>
+                <tr>
+                    <td>Information Management </td>
+                    <td>2.5</td>
+                    <td>2.25</td>
+                    <td>Passed</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    
+    <tr>
+        <td class="footer" colspan="3">
+            
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
